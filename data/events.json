@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Birthday Event Package",
+        "date": "2024-10-12",
+        "description": "Celebrate your special day with us!",
+        "fullDescription": "Celebrate your special day with us! Our birthday event package includes everything you need for a memorable celebration.",
+        "ticketOptions": [
+            {"type": "Starter", "guests": 20, "price": 40},
+            {"type": "Silver", "guests": 40, "price": 80},
+            {"type": "Premium", "guests": 60, "price": 200}
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Corporate Event Package",
+        "date": "2024-11-20",
+        "description": "Host a successful corporate event with us.",
+        "fullDescription": "Host a successful corporate event with our specialized corporate event package. Whether it's a conference, product launch, or team-building retreat...",
+        "ticketOptions": [
+            {"type": "Starter", "guests": 20, "price": 80},
+            {"type": "Silver", "guests": 40, "price": 140},
+            {"type": "Premium", "guests": 60, "price": 350}
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Wedding Ceremony Package",
+        "date": "2024-12-05",
+        "description": "Make your dream wedding a reality with us.",
+        "fullDescription": "Make your dream wedding a reality with our comprehensive wedding ceremony package...",
+        "ticketOptions": [
+            {"type": "Starter", "guests": 20, "price": 200},
+            {"type": "Silver", "guests": 40, "price": 500},
+            {"type": "Premium", "guests": 60, "price": 1000}
+        ]
+    }
+]
