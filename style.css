@@ -1,0 +1,472 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+/*** Navbar CSS  ***/
+.Nav-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 48px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #7c5852;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #7c5852 !important;
+    background-color: #fff !important;
+    text-decoration: none;
+}
+
+.navbar-nav{
+    display: flex;
+    column-gap: 45px;
+
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+
+/* Style for the hamburger menu */
+.navbar-toggle {
+    display: none;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar-toggle .fa {
+    font-size: 24px;
+}
+
+@media (max-width: 710px) {
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        display: none;
+        text-align: center;
+        background-color: #7c5852;
+        position: absolute;
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .navbar-collapse.show {
+        display: block;
+    }
+
+    .navbar-nav {
+        display: block;
+        padding: 15px 0;
+    }
+
+    .navbar-nav li {
+        padding: 10px 0;
+    }
+
+    .navbar-nav li a {
+        color: #fff !important;
+        font-size: 18px;
+        display: block;
+    }
+
+    .navbar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+
+/*** end Navbar CSS  ***/
+
+
+/* Section css */
+.case-study {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .case-study .case-study-container {
+    max-width: 1400px;
+  }
+  .case-study .case-study-container .case-1,
+  .case-study .case-study-container .case-2,
+  .case-study .case-study-container .case-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+  }
+  .case-study .case-study-container .case-1 .content,
+  .case-study .case-study-container .case-2 .content,
+  .case-study .case-study-container .case-3 .content {
+    width: 50%;
+    overflow: hidden;
+  }
+  .case-study .case-study-container .case-1 .image,
+  .case-study .case-study-container .case-2 .image,
+  .case-study .case-study-container .case-3 .image {
+    background: orange;
+    width: 470px;
+    overflow: hidden;
+    height: 750px !important;
+    border-radius: 10px;
+    zoom: 60%;
+  }
+  .case-study .case-study-container .case-1 .content,
+  .case-study .case-study-container .case-2 .content,
+  .case-study .case-study-container .case-3 .content {
+    padding: 0 50px;
+  }
+  .case-study .case-study-container .case-1 .content h2,
+  .case-study .case-study-container .case-2 .content h2,
+  .case-study .case-study-container .case-3 .content h2 {
+    font-size: 35px;
+  }
+  .case-study .case-study-container .case-1 .content p,
+  .case-study .case-study-container .case-2 .content p,
+  .case-study .case-study-container .case-3 .content p {
+    margin-top: 5px;
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  .case-study .case-study-container .case-1 .content button,
+  .case-study .case-study-container .case-2 .content button,
+  .case-study .case-study-container .case-3 .content button {
+    margin: 25px 0;
+    outline: none;
+    border: none;
+    background: #298594;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  .case-study .case-study-container .case-1 .content button a,
+  .case-study .case-study-container .case-2 .content button a,
+  .case-study .case-study-container .case-3 .content button a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .case-study .case-study-container .case-1 .content button:hover,
+  .case-study .case-study-container .case-2 .content button:hover,
+  .case-study .case-study-container .case-3 .content button:hover {
+    transform: translateY(-3px);
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.2901960784));
+    background: #298594;
+  }
+  .case-study .case-study-container .case-1 .image,
+  .case-study .case-study-container .case-2 .image,
+  .case-study .case-study-container .case-3 .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .case-study .case-study-container .case-1 .image img,
+  .case-study .case-study-container .case-2 .image img,
+  .case-study .case-study-container .case-3 .image img {
+    height: 500px;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .case-study-container {
+      width: 1024px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .image {
+      margin: 0 20px;
+    }
+  }
+  @media screen and (max-width: 557px) {
+    h2 {
+      font-size: 20px !important;
+    }
+    .case-1,
+  .case-2, .case-3 {
+      flex-wrap: wrap;
+    }
+    .case-1 .content,
+  .case-1 .image,
+  .case-2 .content,
+  .case-2 .image, .case-3 .content,
+  .case-3 .image {
+      padding: 0 !important;
+    }
+    .case-1, .case-3 {
+      flex-direction: column-reverse;
+    }
+    .case-1 .content,
+  .case-2 .content,
+  .case-3 .content {
+      width: 85% !important;
+    }
+    .case-1 .image,
+  .case-2 .image,
+  .case-3 .image {
+      width: 85% !important;
+      zoom: 70%;
+    }
+    .case-1 .image video,
+  .case-2 .image video,
+  .case-3 .image video {
+      width: 100%;
+    }
+  }
+  @media (max-width: 991.98px) {
+    .padding {
+      padding: 1.5rem;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .padding {
+      padding: 1rem;
+    }
+  }
+  .padding {
+    padding: 5rem;
+  }
+
+
+
+.event-details {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 100px 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-details h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.event-details p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+#bookingForm {
+  margin-top: 30px;
+}
+
+#bookingForm label {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+#bookingForm select,
+#bookingForm input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#bookingForm button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#bookingForm button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+  .event-details {
+    padding: 15px;
+  }
+
+  .event-details h2 {
+    font-size: 24px;
+  }
+
+  #bookingForm button {
+    width: 100%;
+    padding: 14px 0;
+  }
+}
+
+
+.confirmation{
+  padding: 100px 20px;
+}
+
+.booking-confirmation {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-confirmation h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+#confirmation-details {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.booking-confirmation button {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-confirmation button:hover {
+  background-color: #555;
+}
+
+.print-btn {
+  width: 100px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellowgreen;
+  border: 1px solid rgb(213, 213, 213);
+  border-radius: 10px;
+  gap: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  overflow: hidden;
+  font-weight: 500;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.065);
+  transition: all 0.3s;
+}
+.printer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 100%;
+}
+.printer-container {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.printer-container svg {
+  width: 100%;
+  height: auto;
+  transform: translateY(4px);
+}
+.printer-page-wrapper {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.printer-page {
+  width: 70%;
+  height: 10px;
+  border: 1px solid black;
+  background-color: white;
+  transform: translateY(0px);
+  transition: all 0.3s;
+  transform-origin: top;
+}
+.print-btn:hover .printer-page {
+  height: 16px;
+  background-color: grey;
+}
+.print-btn:hover {
+  background-color: green;
+}
+
+
+.footer {
+  background-color: #7c5852;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  margin: 0 auto;
+}
+
